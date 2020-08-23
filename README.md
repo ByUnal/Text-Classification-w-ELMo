@@ -1,19 +1,19 @@
 # ELMo ile Metin Sınıflandırma / Text Classification with ELMo
- Türkçe veri seti üzerinde ELMo ve Derin Öğrenme teknikleri ile Metin Sınıflandırma
+ Türkçe veri seti üzerinde ELMo ile Metin Sınıflandırma
  
 
 ## Requirements
-  *tensorflow 1.15.0 (ELMo doesn't fit for tensorflow 2.x)
+  _tensorflow 1.15.0 (ELMo doesn't fit for tensorflow 2.x)_
   
-  *tensorflow_hub 0.8.0
+  _tensorflow_hub 0.8.0_
  
-  *keras 2.2.4 (for being compatible with tensorflow 1.x)
+  _keras 2.2.4 (for being compatible with tensorflow 1.x)_
   
-  *pandas 1.0.5
+  _pandas 1.0.5_
   
-  *numpy 1.18.5
+  _numpy 1.18.5_
 
-  *matplotlib 3.2.2
+  _matplotlib 3.2.2_
   
-  ## Önemli Not
+  ## Önemli Not !!!
   Yazdığım bu model de kendi kullandığım veriye daha önce preprocessing (Önişlem) uyguladığım için, burada herhangi bir veriyi temizleme işlemi yapılmamaktadır. Kendi verinizi eklediğinizde temizleme işlemleri için bu modele kendi kodlarınızı ekleyebilir ya da benim gibi veriyi önce temizleyip, kaydettikten sonra modellerinizde kullanabilirsiniz.
